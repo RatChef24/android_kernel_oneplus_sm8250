@@ -1,0 +1,102 @@
+[33me3cb8400a72a[m power: supply: axp288_charger: Round constant_charge_voltage writes down
+[33mf1aa9f19da35[m power: supply: axp288_charger: Fix constant_charge_voltage writes
+[33m9391e985c5ae[m thermal: core: Workaround for xiaomi thermal mitigation
+[33mfd4bb5284d34[m Input: pm8xxx-vibrator - correct VIB_MAX_LEVELS calculation
+[33mc8d8b7f650b5[m power: rt9455: hide unused rt9455_boost_voltage_values
+[33m33ba7baa3cba[m NFC: trf7970a: disable all regulators on removal
+[33m733f4c36e68c[m regulator: pwm-regulator: Add validity checks in continuous .get_voltage
+[33m212da1ac3ab3[m cpufreq: imx6q: Don't disable 792 Mhz OPP unnecessarily
+[33ma580c57123d6[m mmc: disable SPI CRC
+[33m70c689190956[m locking/rwsem: Adaptive disabling of reader optimistic spinning
+[33m067997192284[m BACKPORT: crypto: jitter - SP800-90B compliance
+[33m1a71b0efe68f[m cpufreq: brcmstb-avs-cpufreq: Fix -Warray-bounds bug
+[33m0df6701e8c85[m adc: ignore when adc voltage reading zero
+[33m59d57a54cc73[m power: supply: core: Refactor power_supply_set_input_current_limit_from_supplier()
+[33m2b486ecfeb39[m hwmon (it87): Fix voltage scaling for chips with 10.9mV ADCs
+[33m555ce92aacc9[m regulator: s5m8767: Bounds check id indexing into arrays
+[33m56536cb602ea[m mmc: sdhci: Fix voltage switch delay
+[33mcdea4a43db8f[m arm64: dts: rockchip: lower rk3399-puma-haikou SD controller clock frequency
+[33m47ec0a543f9c[m mmc: core: properly select voltage range without power cycle
+[33m871d9a6a42a3[m mmc: core: Terminate infinite loop in SD-UHS voltage switch
+[33m547db1dd98d1[m mmc: sdhci-of-esdhc: Fix refcount leak in esdhc_signal_voltage_switch
+[33m844a364c0b6a[m ARM: dts: imx6qdl: correct PU regulator ramp delay
+[33m5bf901f84130[m iio: adc: sc27xx: fix read big scale voltage not right
+[33m64d8ad57c934[m drm/nouveau/clk: Fix an incorrect NULL check on list iterator
+[33m613b37150fad[m mmc: sdhci-msm: Remove mmc->card check from MGPI design support
+[33m98c790eabed7[m mmc: rtsx: add 74 Clocks in power on flow
+[33mb261474f6661[m hwmon: (pmbus) Add Vin unit off handling
+[33mbd6504605af3[m ARM: dts: exynos: add missing HDMI supplies on SMDK5420
+[33md9a738df0d51[m ARM: dts: exynos: add missing HDMI supplies on SMDK5250
+[33m510aa43c9928[m serial: Fix incorrect rs485 polarity on uart open
+[33mf7150ea21ded[m power: bq25890: Enable continuous conversion for ADC at charging
+[33m9c1f3bdec0cb[m iio: dln2-adc: Fix lockdep complaint
+[33mbb7905681c45[m usb: typec: tcpm: Wait in SNK_DEBOUNCED until disconnect
+[33m7f5c2c6e8ee0[m power: supply: rt5033_battery: Change voltage values to µV
+[33mebe430f845e2[m mmc: sdhci-omap: Fix NULL pointer exception if regulator is not configured
+[33mb8366d877fb9[m iio: dac: ad5446: Fix ad5622_write() return value
+[33m0e6111832d11[m power: supply: max17042_battery: use VFSOC for capacity when no rsns
+[33m112f3dc4465b[m regulator: s5m8767: do not use reset value as DVS voltage if GPIO DVS is disabled
+[33m7824414c2903[m mmc: sdhci: Map more voltage level to SDHCI_POWER_330
+[33mf64bb2ec2b3d[m thermal: Read raw values for ADC_TM calibration channels
+[33m874f7ea12c0c[m power: linear-charger: Report the correct battery status at SOC=0
+[33m684649f3db8b[m hwmon: (tmp421) report /PVLD condition as fault
+[33me06f52e4d8a1[m thermal: core: Workaround for xiaomi thermal mitigation
+[33mbc8b2cc04771[m Merge remote-tracking branch 'origin/android11-base' into android11-stable
+[33m91264ae7fceb[m mfd: axp20x: Update AXP288 volatile ranges
+[33ma4a2974be078[m iio: dac: ad5624r: Fix incorrect handling of an optional regulator.
+[33m2062505276ab[m Merge tag `LA.UM.9.12.r1-12900-SMxx50.QSSI12.0` into android11-base
+[33m0edd2a1066bc[m power: supply: qpnp-smb5: specify different ICL for QC2 9V/12V level
+[33mbf3d04155f4a[m Merge remote-tracking branch 'origin/android11-base' into android11-stable
+[33mf54fa0e88401[m Merge tag `LA.UM.9.12.r1-12800.01-SMxx50.QSSI12.0` into android11-base
+[33m16a4777a05bc[m cpufreq: armada-37xx: forbid cpufreq for 1.2 GHz variant
+[33m32e6ea21d636[m ARM: dts: am43x-epos-evm: Reduce i2c0 bus speed for tps65218
+[33m7c5403b4f983[m Merge "clk: qcom: gpucc: Update voltage fmax table for GPU clock for KHAJE"
+[33m6bcbcedd039b[m clk: qcom: gpucc: Update voltage fmax table for GPU clock for KHAJE
+[33m56d4d4180f9a[m Revert "regulator: qpnp-lcdb: Disable step voltage ramp for PM8150L V3"
+[33mf2f8a9bba32c[m Revert "regulator: qpnp-lcdb: Add n_voltages property for LCDB regulators"
+[33m7e82e4357e41[m Merge "mmc: sdhci-msm: Switch to required pad voltage for vbias bypass"
+[33m401c94a02c83[m mmc: sdhci-msm: Switch to required pad voltage for vbias bypass
+[33m744633a717fd[m Merge remote-tracking branch 'origin/android11-base' into android11-stable
+[33mc41448869066[m Merge remote-tracking branch 'aosp/android-4.19-stable' into android11-base
+[33m8711f6e3f49a[m Merge 4.19.202 into android-4.19-stable
+[33mce35fbada898[m regulator: rt5033: Fix n_voltages settings for BUCK and LDO
+[33mfce391b59786[m Merge remote-tracking branch 'aosp/android-4.19-stable' into android11-base
+[33m97fd50773c53[m Merge 4.19.198 into android-4.19-stable
+[33mf7589b0224e4[m mmc: core: Allow UHS-I voltage switch for SDSC cards if supported
+[33m0644482130a6[m regulator: da9052: Ensure enough delay time for .set_voltage_time_sel
+[33m4ca30ef6257a[m ARM: dts: imx6qdl-sabresd: Remove incorrect power supply assignment
+[33m8300bdd8af9e[m Merge remote-tracking branch 'aosp/android-4.19-stable' into android11-stable
+[33m011b73c995f3[m Merge 4.19.191 into android-4.19-stable
+[33m9c7cfc64de47[m cpufreq: armada-37xx: Fix the AVS value for load L1
+[33m8e2da4780aea[m mmc: core: Do a power cycle when the CMD11 fails
+[33mb78aef07f95e[m Merge "regulator: qpnp-lcdb: Add n_voltages property for LCDB regulators"
+[33m7a3ec1cd36c4[m regulator: qpnp-lcdb: Add n_voltages property for LCDB regulators
+[33me0524263c870[m Merge 4.19.187 into android-4.19-stable
+[33m887d32c6db06[m regulator: bd9571mwv: Fix AVS and DVFS voltage range
+[33mfa21224447ef[m cpufreq: brcmstb-avs-cpufreq: Fix resource leaks in ->remove()
+[33m1fe373d16fcc[m cpufreq: brcmstb-avs-cpufreq: Free resources in error path
+[33ma458354dde03[m dt-bindings: iio: Add scale function for QM215 batt therm
+[33m9c940837bf25[m Merge "regulator: qpnp-lcdb: Disable step voltage ramp for PM8150L V3"
+[33me970fdf9702f[m regulator: qpnp-lcdb: Disable step voltage ramp for PM8150L V3
+[33mb70dac6e5764[m power: smb5-lib: Query POWER_SUPPLY_PROP_VOLTAGE_MAX_DESIGN
+[33mbcf374506f46[m mmc: sdhci-xenon: fix 1.8v regulator stabilization
+[33m67730020fa30[m Merge 4.19.158 into android-4.19-stable
+[33m7d222dce964d[m regulator: defer probe when trying to get voltage from unresolved supply
+[33m061fae52838a[m usb: typec: tcpm: reset hard_reset_count for any disconnect
+[33m5ca1f513f777[m Merge android-4.19-stable.149 (9ce79d9) into msm-4.19
+[33mc1eee7946a5f[m Merge android-4.19-stable.146 (443485d) into msm-4.19
+[33m9ce79d9bed3f[m Merge 4.19.149 into android-4.19-stable
+[33mda95fdc3c756[m power: supply: max17040: Correct voltage reading
+[33m44f2b8694b90[m ASoC: wsa-macro: Update smart boost sequence for wsa883x
+[33m9c7b6f8ba239[m dsp: q6core: Check q6core avs state to be modules ready
+[33mad20a37cb784[m regulator: pwm: Fix machine constraints application
+[33me30c123efaa6[m Merge "usb: phy: qusb: Set the voltage to regulator according to soc capacity"
+[33m90264576e2f3[m Merge android-4.19-stable.125 (a483478) into msm-4.19
+[33m9b3d98debd7a[m usb: phy: qusb: Set the voltage to regulator according to soc capacity
+[33m443485d84781[m Merge 4.19.146 into android-4.19-stable
+[33m349eb8ed7302[m drm/amdgpu: Fix bug in reporting voltage for CIK
+[33m5e1877165d11[m Merge "icnss2: Remove voltage vote for vdd-cx-mx after probe"
+[33m2c1684171564[m drm/amdgpu: Fix bug where DPM is not enabled after hibernate and resume
+[33ma0e2d216e64b[m icnss2: Remove voltage vote for vdd-cx-mx after probe
+[33mc24131ef099a[m drm/amd/powerplay: fix a crash when overclocking Vega M
+[33mf4cbe15b501c[m ASoC: rt5670: Correct RT5670_LDO_SEL_MASK
