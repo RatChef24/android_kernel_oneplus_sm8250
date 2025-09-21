@@ -690,3 +690,6 @@ long cvp_compat_ioctl(struct file *filp,
 	inst = filp->private_data;
 	return cvp_ioctl(inst, cmd, (unsigned long)compat_ptr(arg));
 }
+#ifndef CONFIG_COMPAT
+#define compat_ptr(uptr) ((void __user *)(unsigned long)(uptr))
+#endif

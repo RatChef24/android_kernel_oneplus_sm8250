@@ -62,3 +62,20 @@ config OPLUS_BINDER_STRATEGY
 endif # if ANDROID
 
 endmenu
+
+config ANDROID_SIMPLE_LMK
+	bool "Simple Low Memory Killer"
+	depends on !ANDROID_LOW_MEMORY_KILLER && !MEMCG
+	help
+	  This is a simple low-memory killer designed to be more
+	  efficient than the stock Android LowMemoryKiller by Sultan Alsawaf.
+
+config ANDROID_SIMPLE_LMK_MINFREE
+	int "Minimum free memory threshold (MB)"
+	depends on ANDROID_SIMPLE_LMK
+	range 64 512
+	default 128
+	help
+	  The minimum amount of free memory (in MB) to maintain.
+	  When free memory falls below this threshold, Simple LMK
+	  will begin killing processes.

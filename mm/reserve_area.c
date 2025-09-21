@@ -1,3 +1,4 @@
+#include <linux/compat.h>
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (C) 2018-2020 Oplus. All rights reserved.
@@ -156,6 +157,9 @@ void trigger_svm_oom_event(struct mm_struct *mm, bool brk_risk, bool is_locked)
 
 	if (!((va_feature & RESERVE_LOGGING) &&
 				(current->pid == current->tgid) &&
+#ifndef CONFIG_COMPAT
+#define is_compat_task() (0)
+#endif
 				is_compat_task() &&
 				check_parent_is_zygote(current) &&
 				(uid >= THRIDPART_APP_UID_LOW_LIMIT)))

@@ -217,3 +217,21 @@ define archhelp
   echo  '                  (distribution) /sbin/installkernel or'
   echo  '                  install to $$(INSTALL_PATH) and run lilo'
 endef
+
+# LLVM Polly Optimization flags
+ifdef CONFIG_LLVM_POLLY
+KBUILD_CFLAGS	+= -mllvm -polly
+KBUILD_CFLAGS	+= -mllvm -polly-run-dce
+KBUILD_CFLAGS	+= -mllvm -polly-run-inliner  
+KBUILD_CFLAGS	+= -mllvm -polly-vectorizer=stripmine
+KBUILD_CFLAGS	+= -mllvm -polly-invariant-load-hoisting
+endif
+
+# LLVM Polly Optimization flags
+ifdef CONFIG_LLVM_POLLY
+KBUILD_CFLAGS += -mllvm -polly
+KBUILD_CFLAGS += -mllvm -polly-run-dce
+KBUILD_CFLAGS += -mllvm -polly-run-inliner
+KBUILD_CFLAGS += -mllvm -polly-vectorizer=stripmine
+KBUILD_CFLAGS += -mllvm -polly-invariant-load-hoisting
+endif
